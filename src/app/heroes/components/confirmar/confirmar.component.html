@@ -1,0 +1,11 @@
+<h1>¿Está seguro de realizar esta acción?</h1>
+<hr>
+<p>
+    Se borrará a {{data.superhero}}...
+    <br>
+    Está operación es irreversible.
+</p>
+<div>
+    <button mat-button (click)="cerrar()">Cancelar</button>
+    <button mat-button color="warn" (click)="eliminar()">Eliminar</button>
+</div>
